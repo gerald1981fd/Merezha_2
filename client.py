@@ -1,6 +1,6 @@
 import socketio
 
-RENDER_SERVER_URL = 'https://merezha-2.onrender.com'
+RENDER_SERVER_URL = 'https://merezha-2-fofv.onrender.com'
 USERNAME = input("Придумай собі прізвисько =)\n ")
 
 sio = socketio.Client()
