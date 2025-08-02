@@ -49,6 +49,8 @@ try:
         elif msg.lower() == '/private':
             sio.emit("users", 'start')
             continue
+        elif msg.lower() == 'clear':
+            sio.emit('clear')
 
         # Handle private message after receiving client list
         if private_message_clients:
